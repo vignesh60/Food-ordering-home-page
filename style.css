@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    
+}
+.navbar{
+    position: relative;
+    background: #195A00;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+
+}
+.navbar .nav-items{
+    position: relative;
+    display: flex;
+    padding-left: 30px;
+}
+.navbar .nav-items .nav-item{
+    color: white;
+    margin-left: 35px;
+    list-style-type: none;
+}
+.icons{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    align-items: end;
+    margin-right: 30px;
+}
+.icons .nav-item{
+    margin-right: -24px;
+    
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+}
+.content .textBox{
+    width: 800px;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content .textBox .insidetext{
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content .textBox .insidetext h2{
+    color: #333;
+    font-size: 2.3em;
+    font-weight: 500;
+}
+.content .textBox .insidetext h2 span{
+    color: rgb(60, 58, 59);
+    font-size: 1.0em;
+    font-weight: 900;
+}
+.content .textBox .insidetext p{
+    color: gray;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(16, 91, 25);
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.content .textBox .btn2{
+    background: white;
+    color: #195A00;
+    border: 2px solid;
+}
+.content .imgBox{
+    width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 200px;
+    right:6em;
+    
+}
+.content .imgBox img{
+    max-width: 500px;
+    position: relative;
+    z-index: 1;
+}
+.content .imgBox .leef{
+    width: 400px;
+    height: 400px;
+    right: 38em;
+    top: 9em;
+    z-index: auto;
+    
+}
+.content .imgBox .leef2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 22em;
+    left: 10em;
+    z-index: auto;
+}
+.content .imgBox .leef3{
+    width: 200px;
+    height: 200px;
+    transform: rotate(-200.812deg);
+    left: -7em;
+    top: 7em;
+    position: absolute;
+    z-index: auto;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(6, 102, 27);
+    clip-path: circle(700px at right -50px);
+}
+
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    background: #457e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2 .container1{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+.twoimg{
+    padding-left: 15px;
+    margin-top: 40px;
+}
+.twoimg img{
+    width: 100%;
+}
+.twoimg .img1{
+    height: 40%;
+}
+.twoimg .img2{
+    height: 57%;
+    margin-top: 15px;
+}
+.oneimg img{
+    width: 100%;
+    height: 90%;   
+}
+.textcontent{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    overflow-y: scroll;
+    margin-left: 50px;
+}
+.textcontent .subtext{
+    width: 100%;
+    height: 200px;
+}
+.subtext p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.subtext .btn3{
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.section4{
+    width: 100%;
+    height: 100vh;
+    background: #457e2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4 .container1{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+.oneimg2 img{
+    width: 100%;
+    height: 90%;   
+}
+
+.twoimg2 .img1{
+    width: 120%;
+    height: 90%;
+    margin-top: 70px;
+    margin-left: -60px;   
+}
+
+
+
+
+
+
+.section3{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section3 .container2{
+    text-align: center;
+    justify-content: center;
+}
+.section3 .container2 .imgcontainer{
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.section3 .container2 .tex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .container2 .tex .imgcontainer img{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.text1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.texto{
+    width: 50%;
+}
